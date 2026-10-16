@@ -1,0 +1,20 @@
+PANEL DE IAs - app de escritorio
+
+REQUISITO: instalar Node.js (https://nodejs.org, version LTS).
+
+USAR:
+  1. Abre una terminal dentro de esta carpeta.
+  2. npm install
+  3. npm start
+
+CREAR UN INSTALADOR (opcional):
+  npm run dist
+  El instalador queda en la carpeta "dist" (.exe en Windows).
+
+PERSONALIZAR:
+  Las herramientas, enlaces y usos estan en index.html, en el arreglo "ias".
+
+NOTAS:
+  - Tu sesion iniciada se guarda entre cierres de la app.
+  - Si el inicio de sesion con Google falla dentro de la app, usa el boton
+    "Abrir en el navegador" o inicia sesion con correo y contrasena.
